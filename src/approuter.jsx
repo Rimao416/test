@@ -104,14 +104,14 @@ const Approuter = () => {
   return (
     <BrowserRouter basename="/reactjs">
       <Routes>
-        <Route element={<ProtectedRoutes />}>
+        {/* <Route element={<ProtectedRoutes />}> */}
           <Route path="/" element={<Home />} />
    
           <Route path="/instructor-dashboard" element={<Dashboard />} />
           <Route path="/instructor-list" element={<InstructorList />} />
           <Route path="/instructor-grid" element={<InstructorGrid />} />
           <Route path="/instructor-course" element={<InstructorCourse />} />
-        </Route>
+        {/* </Route> */}
 
         {/* Blog */}
         <Route path="/blog-list" element={<BlogList />} />

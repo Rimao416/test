@@ -16,14 +16,14 @@ import "./assets/plugins/fontawesome/css/all.min.css";
 import "./assets/css/style.css";
 
 import Approuter from "./approuter";
-import { Provider } from "react-redux";
-import store from "./redux/store/ReduxStore";
-import { ContextProvider } from "./context/ContextProvider";
+// import { Provider } from "react-redux";
+// import store from "./redux/store/ReduxStore";
+// import { ContextProvider } from "./context/ContextProvider";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-  <ContextProvider>
+  {/* <ContextProvider> */}
       <Approuter />
-    </ContextProvider>
+    {/* </ContextProvider> */}
   </>
 );
