@@ -23,9 +23,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
   <ContextProvider>
-    <Provider store={store}>
       <Approuter />
-    </Provider>
     </ContextProvider>
   </>
 );
